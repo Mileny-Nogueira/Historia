@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'IBM Bold';
+    src: url(fontes/IBMPlexMono-Bold.ttf);
+}
+@font-face {
+    font-family: 'IBM';
+    src: url(fontes/IBMPlexMono-Regular.ttf);
+}
+body{
+    margin: auto;
+    width: 500px;
+}
+main{
+    border-left: #ee3e54 solid 4px;
+    margin-left: 10px;
+    padding-left: 20px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 20px;
+    font-family: 'IBM Bold';
+    font-size: 28px;
+    color: #ee3e54;
+}
+
+img{
+    margin: 10px 10px;
+}
+
+#inicio, #atual{
+    padding: 0;
+    margin: 0;
+    display: block;
+    position: absolute;
+    left: 380px;
+}
+
+#inicio{
+    top: 10px;
+}
+
+#atual{
+    top: 900px;
+}
+p{
+    font-size: 16px;
+    font-family: 'IBM';
+    color: #432818;
+}
